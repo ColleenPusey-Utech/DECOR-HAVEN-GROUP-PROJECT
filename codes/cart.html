@@ -1,0 +1,68 @@
+<!--DONE BY: Rhian Sang 2203004-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>CART</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+        <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=person"
+        />
+        <link
+            href="https://db.onlinewebfonts.com/c/1e9be1f0b50ae2fb57dc62a3607428bb?family=Sainte+Colombe+ExtraLight"
+            rel="stylesheet"
+            type="text/css"
+        />
+        <link rel="stylesheet" href="../style.css" />
+    </head>
+    <body>
+        <header class="header">
+            <a href="index.html">
+                <img src="../assets/LOGO.png" alt="Decor Haven Logo" class="logo" />
+            </a>
+
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <!-- Profile Dropdown -->
+                    <li class="profile-dropdown">
+                        <a id="profile-button">
+                            <span class="material-symbols-outlined">person</span>
+                        </a>
+                        <ul class="dropdown" id="dropdownMenu">
+                            <li id="userContainer">
+                                <span id="userStatus"></span>
+                                <button id="logoutBtn" onclick="logoutUser()" style="display: none">Logout</button>
+                            </li>
+                            <li><a href="login.html">Login</a></li>
+                            <li><a href="registration.html">Register</a></li>
+                        </ul>
+                    </li>
+
+                    <!-- Cart Icon -->
+                    <li>
+                        <a id="cart-button" class="active" href="cart.html">🛒 </a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+<body>
+<div class="cart-container">
+    <h1>Your Shopping Cart</h1>
+
+    <div id="cart-items"></div>
+    <div class="cart-totals" id="cart-totals"></div>
+
+    <div class="cart-buttons">
+        <button id="clearCart">Clear All</button>
+        <button id="checkoutBtn">Checkout</button>
+        <button id="closeCart">Close</button>
+    </div>
+</div>
+    <script src="../script.js"></script>
+
+</body>
+</html>
