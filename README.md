@@ -72,5 +72,7 @@ Option A — Run Locally
 
 Option B — Run Online
 Live Demo (GitHub Pages Hosting Link)
+https://colleenpusey-utech.github.io/DECOR-HAVEN-GROUP-PROJECT/codes/
 ---
+
 
